@@ -5,6 +5,8 @@
 1. 复制网址: `https://poblue.github.io/uglify-fend-p6/`
 2. 打开 [pageSpeed][1] 粘贴上面的网址
 3. 按 `分析` 按钮就能够测速了
+
+
 ### 优化的地方
 - 异步加载 字体 ，不阻塞生成
 - 内联 `style.css`
@@ -14,10 +16,14 @@
 
 
 ## pizza.html , 60 FPS
+
+
 ### 如何运行和测速
 1. 用浏览器打开 `views/pizza.html`
 2. 打开浏览器的 `Console` 
 3. 观察 `Console` 里的信息
+
+
 ### 优化的地方
 - 添加使用 `requestFrame()`
 - 解决强制布局
